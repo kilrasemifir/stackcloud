@@ -1,0 +1,6 @@
+[submodule "react-front-cloud"]
+	path = react-front-cloud
+	url = https://github.com/kilrasemifir/react-front-cloud.git
+[submodule "demo-cloud"]
+	path = demo-cloud
+	url = https://github.com/kilrasemifir/demo-cloud.git
