@@ -8,3 +8,12 @@ services:
       MYSQL_DATABASE: bdd
     ports:
       - 3306:3306
+  backend:
+    build: demo-cloud/.
+    ports:
+      - 8080:8080
+  
+  frontend:
+    build: react-front-cloud/.
+    ports:
+    - 80:80
